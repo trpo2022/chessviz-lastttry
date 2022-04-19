@@ -1,4 +1,4 @@
-all: chess
+all: chess.exe
 
-chess: boardchess.c
-	gcc boardchess.c -Wall -Werror -o chess
+chess.exe: boardchess.c
+	gcc boardchess.c -Wall -Werror -o chess.exe
