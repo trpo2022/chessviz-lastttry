@@ -5,7 +5,7 @@
 #include <libchess/boardchess.h>
 #include <libchess/Input.h>
 #include <libchess/Move.h>
-#include <libchess/boardchess.h>
+#include <libchess/Table.h>
 
 #define n 8
 #define step 12
@@ -21,7 +21,7 @@ int main()
     input_step = (char*)malloc(step * sizeof(char));
 
     Table(chess);
-    Print_table(chess);
+    PrintTable(chess);
     Input(input_step);
 
     printf("\n");
@@ -29,7 +29,7 @@ int main()
         printf("%c", input_step[i]);
     Move(chess, input_step);
     printf("\n");
-    Print_table(chess);
+    PrintTable(chess);
 
     return 0;
 }
