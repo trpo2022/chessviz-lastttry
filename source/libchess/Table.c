@@ -1,6 +1,6 @@
 #include <libchess/Table.h>
 
-void Fill_Table(int** chess)
+void Table(int** chess)
 {
     int i, j;
     for (i = 0; i < n; i++) {

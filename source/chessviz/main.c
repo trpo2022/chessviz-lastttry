@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include <libchess/Table.h>
+#include <libchess/boardchess.h>
 #include <libchess/Input.h>
 #include <libchess/Move.h>
 #include <libchess/boardchess.h>
